@@ -5,7 +5,7 @@ namespace net_task_4_2
     internal class MobileOperator
     {
         protected String name { get; set; }
-        protected double callCost { get; set; } //цена
+        protected double callCost { get; set; }
         protected int coverageArea { get; set; } //зона покрытия
 
         public MobileOperator(string name, double callCost, int coverageArea)
