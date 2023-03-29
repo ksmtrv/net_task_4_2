@@ -1,0 +1,7 @@
+D:\C#\net_task_4_2\net_task_4_2\bin\Debug\net_task_4_2.exe
+D:\C#\net_task_4_2\net_task_4_2\bin\Debug\net_task_4_2.pdb
+D:\C#\net_task_4_2\net_task_4_2\obj\Debug\net_task_4_2.csproj.AssemblyReference.cache
+D:\C#\net_task_4_2\net_task_4_2\obj\Debug\net_task_4_2.csproj.SuggestedBindingRedirects.cache
+D:\C#\net_task_4_2\net_task_4_2\obj\Debug\net_task_4_2.csproj.CoreCompileInputs.cache
+D:\C#\net_task_4_2\net_task_4_2\obj\Debug\net_task_4_2.exe
+D:\C#\net_task_4_2\net_task_4_2\obj\Debug\net_task_4_2.pdb
