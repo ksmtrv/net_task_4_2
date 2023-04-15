@@ -16,7 +16,7 @@
 
         public override string GetInfoStr() //получить информацию
         {
-            return base.GetInfoStr() + $", connection fee {feeForEachConnection}";
+            return base.GetInfoStr() + $",\n connection fee {feeForEachConnection}";
         }
     }
 }

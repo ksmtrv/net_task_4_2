@@ -29,9 +29,9 @@ namespace net_task_4_2
             return 100 * coverageArea / callCost;
         } 
 
-        public virtual String GetInfoStr() //получить информацию 
+        public virtual string GetInfoStr() //получить информацию 
         {
-            return $"Mobile operator: {name}, call cost: {callCost}, coverage area: {coverageArea}, Q = {GetQuality()}";
+            return $"Mobile operator: {name},\n call cost: {callCost},\n coverage area: {coverageArea},\n Q = {GetQuality()}";
         }
     }
 }
