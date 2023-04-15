@@ -11,7 +11,7 @@
 
         public override double GetQuality() //качество связи
         {
-            return feeForEachConnection ? 0.7 * base.GetQuality() : 1.5 * base.GetQuality();
+            return base.GetQuality()  * (feeForEachConnection ? 0.7 : 1.5);
         }
 
         public override string GetInfoStr() //получить информацию
