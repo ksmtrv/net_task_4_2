@@ -9,14 +9,14 @@
             this.feeForEachConnection = feeForEachConnection;
         }
 
-        override protected double GetQuality() //качество связи
+        public override double GetQuality() //качество связи
         {
             return feeForEachConnection ? 0.7 * base.GetQuality() : 1.5 * base.GetQuality();
         }
 
         public override string GetInfoStr() //получить информацию
         {
-            return base.GetInfoStr() + $", fee for each conn is {feeForEachConnection}";
+            return base.GetInfoStr() + $", connection fee {feeForEachConnection}";
         }
     }
 }

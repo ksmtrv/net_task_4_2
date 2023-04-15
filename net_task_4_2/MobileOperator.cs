@@ -24,7 +24,7 @@ namespace net_task_4_2
             this.coverageArea = coverageArea;
         }
 
-        protected virtual double GetQuality() //качество связи
+        public virtual double GetQuality() //качество связи
         {
             return 100 * coverageArea / callCost;
         } 

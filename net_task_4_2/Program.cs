@@ -11,18 +11,18 @@ namespace net_task_4_2
 
         static void Main(string[] args) {
 
-            MobileOperator mobileOperator = new MobileOperator("MTS", 10, 100);
+            MobileOperator mobileOperator = new MobileOperator("Beeline", 10, 100);
             Console.WriteLine(mobileOperator.GetInfoStr());
 
             MobileOperator mobileOperator2 = new MobileOperator("Tele2", 50, 100);
             Console.WriteLine(mobileOperator2.GetInfoStr());
 
-            MobileOperatorDerived mobileOperatorDerived = new MobileOperatorDerived("MTS2", 10, 15, true);
+            MobileOperatorDerived mobileOperatorDerived = new MobileOperatorDerived("MTS", 10, 15, true);
             Console.WriteLine(mobileOperatorDerived.GetInfoStr());
 
             string input = "";
             while (true) {
-                Console.WriteLine("Enter type of obj to create: 1 - Base Mobile op, 2 - Derived Mobile op, other for exit");
+                Console.WriteLine("Enter type of obj to create: 1 - Base Mobile op, 2 - Derived Mobile op");
                 input = Console.ReadLine();
                 if (int.TryParse(input, out int i))
                 {
@@ -43,7 +43,7 @@ namespace net_task_4_2
 
         private static void CreateMobileOp(bool derived = false)
         {
-            Console.WriteLine($"Enter name, call cost, coverage area {(derived ? ", is fee for each conn" : "")}");
+            Console.WriteLine($"Enter name, call cost, coverage area {(derived ? ", connection fee" : "")}");
             string input = Console.ReadLine();
             if (input != null)
             {
